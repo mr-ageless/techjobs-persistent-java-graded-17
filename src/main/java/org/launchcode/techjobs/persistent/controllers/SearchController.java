@@ -20,6 +20,7 @@ public class SearchController {
     @Autowired
     private JobRepository jobRepository;
 
+
     @RequestMapping("")
     public String search(Model model) {
         model.addAttribute("columns", columnChoices);
