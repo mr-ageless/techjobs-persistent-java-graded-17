@@ -11,9 +11,8 @@ import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
-
 @Controller
-@RequestMapping
+@RequestMapping("skills")
 public class SkillController {
     @Autowired
     private SkillRepository skillRepository;
